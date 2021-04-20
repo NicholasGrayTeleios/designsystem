@@ -10,7 +10,7 @@ Button.propTypes = {
   label: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
 };
-/* eslint-enable sort-keyss */
+/* eslint-enable sort-keys */
 
 Button.defaultProps = {
   size: 'small',
