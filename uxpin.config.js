@@ -12,6 +12,8 @@ module.exports = {
           'src/components/MediaPlayer/MediaPlayer.js',
           'src/components/Table/Table.js',
           'src/components/TrendLine/TrendLine.js',
+          'src/components/Header/header.js',
+          'src/components/Sidebar/sidebar.js',
           // 'src/components/SimpleMap/SimpleMap.js',
         ],
       },

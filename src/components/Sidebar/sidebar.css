@@ -1,0 +1,347 @@
+.wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+#exampleAccordion {
+  padding-left: 10px;
+  margin: 1em 0;
+  list-style: none;
+  padding-right: 10px;
+  height: 1000px;
+  margin-top:0;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+.form-group input,
+.form-group select,
+.form-group textarea 
+.form-group span{
+    max-width: 280px;
+}
+.form-control {
+    width:250px;
+}
+#pageLoaderWrap {
+    width:100%;
+    height:100%;
+    position:fixed;
+    background: white;
+    z-index:9999;
+}
+/* #loader {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: url('../Content/images/powerworx-load.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.no-border-input{
+    border:none !important;
+}
+#printMe img {
+    width: 150px;
+    float: left;
+    padding: 0;
+  
+    margin-bottom: .75rem;
+    border-radius: 0;
+    
+}
+#mainNav {
+    -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+}
+    #mainNav .navbar-text {
+        color: #3b92d9;
+    }
+    #mainNav .signout a{
+        color: #3b92d9;
+    }
+#page-top #mainNav .navbar-sidenav {
+    background-color: #1c2033;
+}
+        #page-top #mainNav .navbar-sidenav .nav-link {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;                  
+        }
+        #page-top #mainNav .navbar-sidenav .nav-link span {
+            
+            display: block;
+        }
+        #page-top #mainNav .navbar-sidenav .nav-item {
+            border-bottom: 1px solid #303642;
+            padding-top: 25px;
+            padding-bottom: 15px;
+            text-align:center;
+        }
+    #page-top #mainNav .navbar-sidenav .nav-link img{
+        width: 35px;
+    }
+    .side-action {
+        margin-left: 2px;
+        float: right;
+        position: relative;
+        right: -50px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        color: white;
+        background: rgba(52, 58, 64, 0.5);
+        line-height: 45px;
+    }
+
+.side-action, .side-action:hover {
+    color: white;
+        
+}
+
+.side-action:hover {
+    background: #343a40;
+    transition: 0.4s ease;
+    top:-5px;
+}
+
+.side-action i {
+    font-weight: 800;
+}
+
+.side-action-container {
+    /*width: 0px;*/
+    position: absolute;
+    z-index: 999;
+    height: 0px;
+    right: 52px;
+}
+
+.print-only {
+    display: none;
+}
+
+.nowrap {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.tenantBrand {
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+
+h3.tenantBrandName {
+    margin:0% !important;
+    width:50% !important;
+}
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    .col-print-6 {
+        width:50%;
+    }
+
+    .print-label {
+        width: 30% !important;
+        flex: initial;
+    }
+
+    .print-text-content {
+        width: 70% !important;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .nobreak {
+        position:relative;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .print:last-child {
+        page-break-after: auto;
+    }
+
+    .collapse {
+        display: block !important;
+        height: auto !important;
+    }
+    
+    .print-accordion-heading{
+        font-size:20pt;
+    }
+
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+
+    .print-only{
+        display:block;
+    }
+
+    .pos-rel-on-print{
+        position:relative;
+    }
+
+    .overflow-visible {
+        overflow:visible;
+    }
+
+    body.fixed-nav {
+        padding-top:0px;
+    }
+
+    html {
+        
+        margin: 0px; /* this affects the margin on the html before sending to printer */
+    }
+
+}
+
+@page {
+   margin: 0.5cm;
+}
+
+/*css for user roles page*/
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f7f7f7;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+
+#embedContainer iframe {
+    border: none;
+}
+#dt tbody tr {
+    cursor: pointer;
+}
+
+.dataTables_processing {
+    /*margin-top: 60px !important;*/
+}
+
+.autoRow-temp-row {
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+
+.wf-block {
+    width: 100%;
+    height: 110px;
+}
+
+.wf-block-img {
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.wf-block-title {
+    line-height: 20px;
+    margin-bottom: 0;
+    width: 170px
+}
+
+.wf-block-container {
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 20em;
+    cursor: pointer;
+}
+
+.wf-block-container-modal {
+    width: 18em; 
+    font-size: 14px;
+}
+
+.category-header {
+    font-size: 14px;
+    color: #3e6080;
+    font-weight: 200;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-transform: uppercase;
+}
+
+hr.header {
+    border-top: 1px dotted rgba(0,0,0,.1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#createddate {
+    margin-left: 5px;
+}
+
+
+.img-sub-text {
+    font-size: 0.8rem;
+    display: block;
+    clear: both;
+}
