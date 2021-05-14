@@ -9,6 +9,7 @@ const Tile = (prop) => (
 Tile.propTypes = {
   label: PropTypes.string,
   background: PropTypes.string,
+  textColor: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
 };
 /* eslint-enable sort-keys */

@@ -11,9 +11,7 @@ export default (
     type="primary"
     uxpId="button"
     textColor="white"
-    background="red"
-    >
-    
+    background="red">
     Let's Merge!
   </Tile>
 );
