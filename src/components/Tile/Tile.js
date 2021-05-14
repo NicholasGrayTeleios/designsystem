@@ -50,4 +50,4 @@ Tile.defaultProps = {
 //   type: 'primary',
 // };
 
-export { Button as default };
+export { Tile as default };
