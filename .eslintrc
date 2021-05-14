@@ -10,7 +10,7 @@
     "jest": true
   },
   "root": true,
-  "rules": {    
+  "rules": {
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
@@ -138,7 +138,7 @@
     ],
     "max-len": [
       2,
-      200
+      400
     ],
     "arrow-parens": [
       2,

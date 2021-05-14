@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './header.css';
 
+// eslint-disable-next-line max-len
 const Template = function () {
   return (
     <header>
