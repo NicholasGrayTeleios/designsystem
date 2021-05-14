@@ -14,6 +14,7 @@ module.exports = {
           'src/components/TrendLine/TrendLine.js',
           'src/components/Header/header.js',
           'src/components/Sidebar/sidebar.js',
+          'src/components/Tile/Tile.js',
           // 'src/components/SimpleMap/SimpleMap.js',
         ],
       },
