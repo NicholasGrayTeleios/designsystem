@@ -1,9 +1,5 @@
 import * as React from 'react';
 import './sidebar.css';
-import homeimg from './images/home.png';
-import taskimg from './images/mytasks.png';
-import insightimg from './images/insights.png';
-import dataimg from './images/DataSources.png';
 
 const Template = function () {
   return (
@@ -13,13 +9,19 @@ const Template = function () {
           <ul className="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Solutions">
               <a className="nav-link" href="/#">
-                <img src="https://teleiosmediastorage.blob.core.windows.net/asset-09d74907-63f6-4955-b9ac-fd04c4290c5a/home.png?sp=r&st=2021-05-14T15:13:05Z&se=2041-05-14T23:13:05Z&sv=2020-02-10&sr=b&sig=K%2Fv88nODGOMcAKOFdYYzOgmy3IDKzBUxVgI6BbMI9n4%3D" alt="Home" />
+                <img 
+                  src="https://teleiosmediastorage.blob.core.windows.net/asset-09d74907-63f6-4955-b9ac-fd04c4290c5a/home.png?sp=r&st=2021-05-14T15:13:05Z&se=2041-05-14T23:13:05Z&sv=2020-02-10&sr=b&sig=K%2Fv88nODGOMcAKOFdYYzOgmy3IDKzBUxVgI6BbMI9n4%3D"
+                  alt="Home" 
+                />
                 <span className="nav-link-text">Home</span>
               </a>
             </li>
             <li className="nav-item" data-toggle="tooltip" data-placement="right" title="Manage Forms">
               <a className="nav-link" href="/#">
-                <img src="https://teleiosmediastorage.blob.core.windows.net/asset-70571e04-bece-487b-b105-9ab64dabf326/mytasks.png?sp=r&st=2021-05-14T15:14:45Z&se=2041-05-14T23:14:45Z&sv=2020-02-10&sr=b&sig=falN9PjZeu9idxjPm%2Bd9EhxAjZXA9pnr%2F%2BQxwq%2F9UhA%3D" alt="Tasks" />
+                <img 
+                  src="https://teleiosmediastorage.blob.core.windows.net/asset-70571e04-bece-487b-b105-9ab64dabf326/mytasks.png?sp=r&st=2021-05-14T15:14:45Z&se=2041-05-14T23:14:45Z&sv=2020-02-10&sr=b&sig=falN9PjZeu9idxjPm%2Bd9EhxAjZXA9pnr%2F%2BQxwq%2F9UhA%3D"
+                  alt="Tasks" 
+                />
                 <span className="nav-link-text">My Tasks</span>
               </a>
             </li>
